@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    padding:0;
+    background:url("display.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    border:2px solid black;
+}
+#p1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-size: medium;
+}
