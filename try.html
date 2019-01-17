@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form in HTML5 and CSS3</title>
+	<link rel="stylesheet" a href="try.css">
+    <link rel="stylesheet" a href="css\font-awesome.min.css">
+    <script>
+        function feedback()
+        {
+			var name = document.forms["login"]["uname"];               
+			var pass = document.forms["login"]["password"];              
+            window.alert("Login Successfull!!")
+
+        }
+    </script>
+</head>
+<body>
+		<div class="topnav">
+                <a class="active" href="chd.html">Home</a>
+                <a href="try.html">Login</a>
+                <a href="forms.html">Feedback Form</a>
+                <a href="#about">About</a>
+            </div>
+	<div class="container">
+	<img src="giphy.webp"/>
+		<form name="login" action="#" onsubmit="return feedback()" method="post">
+			<div class="form-input">
+				<input type="text" name="uname" placeholder="Enter User Name"/ required>	
+			</div>
+			<div class="form-input">
+				<input type="password" name="password" placeholder="Enter password"/ required>
+			</div>
+			<input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+		</form>
+	</div>
+</body>
+</html>
